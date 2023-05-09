@@ -1,0 +1,1 @@
+select "Country or region", Year FROM happy WHERE Score=(select Min(Score) from happy);

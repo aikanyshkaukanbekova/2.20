@@ -1,0 +1,1 @@
+select "Country or region", year, Score from happy where year in ('2018') order by 3 DESC limit 10;

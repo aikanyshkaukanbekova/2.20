@@ -1,0 +1,1 @@
+ select "Country or region", Year, Score from happy where "GDP per capita" = (select max("GDP per capita") from happy);
